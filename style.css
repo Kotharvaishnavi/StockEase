@@ -1,0 +1,138 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#homepage {
+    padding-top: 70px;
+    padding-bottom: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.icon {
+    color: aquamarine;
+    font-family: "Roboto";
+}
+
+.nav-link:hover {
+    color: aquamarine !important;
+    transition: 0.3s;
+}
+
+.nav-link {
+    color: white !important;
+    font-family: "Roboto";
+    font-size: 20px;
+}
+
+.home-section {
+    background-image: radial-gradient(#03254c, #204876);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 70px);
+}
+
+.h {
+    color: #ffffff;
+    font-family: Georgia;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.p {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 25px;
+    font-style: italic;
+}
+
+.section-bg {
+    background-image: radial-gradient(#03254c, #204876);
+    background-size: cover;
+}
+
+.p-h {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p-p {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-size: 25px;
+}
+
+#brands {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#brands .card {
+    transition: all 0.3s ease;
+}
+
+#brands .card:hover {
+    transform: translateY(-8px);
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+.b-h {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.b-p {
+    color: #9aa5b1;
+    font-family: "Roboto";
+    font-style: italic;
+    font-size: 20px;
+}
+
+#about .section-bg {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+#about {
+    padding-bottom: 30px;
+}
+
+#about .card {
+    transition: all 0.3s ease;
+}
+
+#about .card:hover {
+    transform: translateY(-8px);
+}
+
+.a-h {
+    color: white;
+    font-family: sans-serif;
+    font-size: 55px;
+}
+
+.a-p {
+    color: #f8f9fa;
+    font-family: "Roboto";
+    font-size: 28px;
+}
