@@ -4,8 +4,8 @@ body {
 }
 
 #homepage {
-    padding-top: 70px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 html {
@@ -76,8 +76,8 @@ html {
 }
 
 #brands {
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 #brands .card {
@@ -114,7 +114,7 @@ html {
 }
 
 #about {
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 #about .card {
@@ -135,4 +135,13 @@ html {
     color: #f8f9fa;
     font-family: "Roboto";
     font-size: 28px;
+}
+
+footer a {
+    color: white;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    color: aquamarine;
 }
